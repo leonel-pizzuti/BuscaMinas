@@ -4,7 +4,7 @@
 ![Swing](https://img.shields.io/badge/GUI-Swing-blue?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Completado-brightgreen?style=for-the-badge)
 
-Implementación clásica del juego **BuscaMinas** (Minesweeper) en entorno de escritorio, desarrollada en **Java** con interfaz gráfica interactiva construida en **Java Swing**[cite: 4, 5].
+Implementación clásica del juego **BuscaMinas** (Minesweeper) en entorno de escritorio, desarrollada en **Java** con interfaz gráfica interactiva construida en **Java Swing**.
 
 ---
 
