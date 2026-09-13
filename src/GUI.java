@@ -82,10 +82,10 @@ public class GUI extends JFrame {
                         int fBoton = Integer.parseInt(coordenadas[0]);      //Posicion x del boton
                         int cBoton = Integer.parseInt(coordenadas[1]);      //Posicion y del boton
                         if (SwingUtilities.isRightMouseButton(e)) {
-                            if(botonPresionado.getText().equals("🚩") && botonPresionado.isEnabled()){
+                            if(botonPresionado.getText().equals("\u2691") && botonPresionado.isEnabled()){
                                 botonPresionado.setText("");
                             } else if(botonPresionado.isEnabled()){
-                                botonPresionado.setText("🚩");
+                                botonPresionado.setText("\u2691");
                                 if(banderas == cantMinas){
                                     chequearGanador();
                                 }
@@ -145,7 +145,7 @@ public class GUI extends JFrame {
         for(int f = 0; f < numFilas; f++){
             for(int c = 0; c < numColumnas; c++){
                 if(celdas[f][c].esMina()){
-                    botones[f][c].setText("💣");
+                    botones[f][c].setText("\u2738");
                 }
             }
         }
