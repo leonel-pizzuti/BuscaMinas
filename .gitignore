@@ -1,0 +1,18 @@
+# Archivos compilados y carpetas de salida
+*.class
+bin/
+out/
+build/
+
+# Metadatos de IDEs y BlueJ
+*.ctxt
+package.bluej
+.vscode/
+.idea/
+*.iml
+
+# Metadatos de sistema
+desktop.ini
+*.ini
+.DS_Store
+Thumbs.db
