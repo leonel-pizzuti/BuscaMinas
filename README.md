@@ -10,23 +10,23 @@ Implementación clásica del juego **BuscaMinas** (Minesweeper) en entorno de es
 
 ## 📋 Descripción
 
-El proyecto recrea la experiencia clásica de despejar un campo de minas sin detonar ninguna[cite: 4]. Aplica conceptos de Programación Orientada a Objetos (POO), manejo de eventos de ratón (clic izquierdo y derecho), generación pseudoaleatoria de minas y algoritmos recursivos de expansión (*flood fill*) para despejar áreas vacías contiguas automáticamente[cite: 4].
+El proyecto recrea la experiencia clásica de despejar un campo de minas sin detonar ninguna. Aplica conceptos de Programación Orientada a Objetos (POO), manejo de eventos (clic izquierdo y derecho), generación pseudoaleatoria de minas y algoritmos recursivos de expansión para despejar áreas vacías contiguas automáticamente.
 
 ---
 
 ## ✨ Características
 
-- **Tablero Dinámico (Swing):** Matriz de $15 \times 15$ celdas construida con `GridLayout` sobre una ventana de $750 \times 750$ píxeles[cite: 4].
-- **Generación Segura:** Las 36 minas se distribuyen pseudoaleatoriamente tras realizar el primer clic, garantizando que el usuario no pierda en la jugada inicial[cite: 4].
+- **Tablero Dinámico (Swing):** Matriz de $15 \times 15$ celdas construida con `GridLayout`.
+- **Generación Segura:** Las minas se distribuyen pseudoaleatoriamente tras realizar el primer clic, garantizando que el usuario no pierda en la jugada inicial.
 - **Controles con Mouse:**
-  - **Clic Izquierdo:** Descubre la celda seleccionada[cite: 4].
-  - **Clic Derecho:** Alterna la colocación o remoción de banderas (`🚩`) en celdas sospechosas[cite: 4].
-- **Expansión Recursiva:** Si una celda descubierta no tiene minas adyacentes (0 pistas), el método `liberarEspacio` propaga recursivamente la apertura de celdas vecinas[cite: 4].
-- **Cálculo de Proximidad:** Determina en tiempo real el número de minas adyacentes a cada celda en un radio de 8 direcciones[cite: 4].
+  - **Clic Izquierdo:** Descubre la celda seleccionada.
+  - **Clic Derecho:** Alterna la colocación o remoción de banderas (`🚩`) en celdas sospechosas.
+- **Expansión Recursiva:** Si una celda descubierta no tiene minas adyacentes (0 pistas), el método `liberarEspacio` propaga recursivamente la apertura de celdas vecinas.
+- **Cálculo de Proximidad:** Determina en tiempo real el número de minas adyacentes a cada celda en un radio de 8 direcciones.
 - **Detección de Fin de Partida:**
-  - **Derrota:** Revela la ubicación de todas las minas (`💣`) y muestra un mensaje de derrota[cite: 4].
-  - **Victoria:** Comprueba si se han descubierto todas las celdas libres del tablero[cite: 4].
-- **Reinicio Automático:** Limpieza del tablero y restablecimiento del estado interno al culminar cada partida[cite: 4].
+  - **Derrota:** Revela la ubicación de todas las minas (`💣`) y muestra un mensaje de derrota.
+  - **Victoria:** Comprueba si se han descubierto todas las celdas libres del tablero.
+- **Reinicio Automático:** Limpieza del tablero y restablecimiento del estado interno al culminar cada partida.
 
 ---
 
